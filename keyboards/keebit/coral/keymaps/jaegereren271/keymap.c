@@ -74,14 +74,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_GRV,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,             /**/          KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_F12,
         _______, KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC,          /**/          KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, KC_PIPE,
         _______, KC_EQL,  KC_MINS, KC_PLUS, KC_LCBR, KC_RCBR, _______, /**/ _______, KC_LBRC, KC_RBRC, KC_QUOT, KC_DQUO, KC_BSLS, _______,
-                          _______, _______, _______, _______,          /**/           _______, _______, _______, _______
+                          _______, _______, _______, _______,          /**/          _______, _______, _______, QK_BOOT
     ),
     [_RAISE] = LAYOUT(
-        _______, KC_QWRTY, KC_CLMK, KC_GAME, KC_MEDIA, _______,          /**/          _______, _______,  _______, _______,  _______,  _______,
-        _______, KC_BTN1,  KC_MS_U, KC_BTN2, KC_INS,   KC_WH_U,          /**/          KC_PGUP, KC_PRVWD, KC_UP,   KC_NXTWD, KC_DLINE, KC_BSPC,
-        _______, KC_MS_L,  KC_MS_D, KC_MS_R, KC_PSCR,  KC_WH_D,          /**/          KC_PGDN, KC_LEFT,  KC_DOWN, KC_RGHT,  KC_DEL,   KC_TERM,
-        _______, KC_UNDO,  KC_CUT,  KC_COPY, KC_PASTE, KC_KANA, _______, /**/ _______, KC_HENK, KC_HOME,  XXXXXXX, KC_END,   XXXXXXX,  _______,
-                           QK_BOOT, _______,  _______, _______,          /**/          _______, _______,  _______, _______
+        _______, KC_QWRTY, KC_CLMK, KC_GAME,  KC_MEDIA, _______,          /**/          _______, _______,  _______, _______,  _______,  _______,
+        _______, MS_BTN1,  MS_UP,   MS_BTN2,  KC_INS,   MS_WHLU,          /**/          KC_PGUP, KC_PRVWD, KC_UP,   KC_NXTWD, KC_DLINE, KC_BSPC,
+        _______, MS_LEFT,  MS_DOWN, MS_RGHT,  KC_PSCR,  MS_WHLD,          /**/          KC_PGDN, KC_LEFT,  KC_DOWN, KC_RGHT,  KC_DEL,   KC_TERM,
+        _______, KC_UNDO,  KC_CUT,  KC_COPY,  KC_PASTE, KC_KANA, _______, /**/ _______, KC_HENK, KC_HOME,  XXXXXXX, KC_END,   XXXXXXX,  _______,
+                           _______, _______,   _______, _______,          /**/          _______, _______,  _______, _______
     ),
 };
 
